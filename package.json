@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "wdio": "wdio run ./wdio.conf.js",
-    "app-on-chrome": "set BROWSER= chrome&&wdio run ./wdio.conf.js"
+    "orange-on-chrome": "set BROWSER= chrome&&wdio run ./wdio.conf.js"
   },
   "keywords": [],
   "author": "",

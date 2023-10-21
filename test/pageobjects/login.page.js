@@ -9,15 +9,19 @@ class LoginPage extends Page {
      * define selectors using getter methods
      */
     get inputUsername () {
-        return $('#username');
+        return $("//input[@placeholder='Username']");
     }
 
     get inputPassword () {
-        return $('#password');
+        return $("//input[@placeholder='Password']");
     }
 
     get btnSubmit () {
-        return $('button[type="submit"]');
+        return $("//button[@type='submit']");
+    }
+
+    get dashboard() {
+        return $("//h6[normalize-space()='Dashboard']");
     }
 
     /**
