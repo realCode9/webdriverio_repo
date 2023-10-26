@@ -10,7 +10,6 @@
     "allure-report": "allure generate report/allure-results --clean && allure open",
     "allure": "allure serve report/allure-results",
     "pretest": "rimraf report/allure-results && rimraf report/allure-report",
-    "pretestAllure": "rimraf report/allure-results"
   },
   "keywords": [],
   "author": "",
