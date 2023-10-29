@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="My Login application" timestamp="2023-10-28T18:13:29" time="6.791" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="My Login application"/>
+      <property name="capabilities" value="chrome.118_0_5993_90.windows"/>
+      <property name="file" value="file:///C:/Automation%20POC/vijayb-wdio-automation/test/specs/test.e2e.js"/>
+    </properties>
+    <testcase classname="chrome.118_0_5993_90.windows.My_Login_application" name="should login with valid credentials" time="6.79">
+      <system-out><![CDATA[
+COMMAND: POST /session/0ac9c42aecb71ef1a623772b4db9322e/url - {"url":"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"}
+RESULT: {"url":"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"}
+COMMAND: POST /session/0ac9c42aecb71ef1a623772b4db9322e/element - {"using":"xpath","value":"//input[@placeholder='Username']"}
+RESULT: {"using":"xpath","value":"//input[@placeholder='Username']"}
+COMMAND: POST /session/0ac9c42aecb71ef1a623772b4db9322e/elements - {"using":"xpath","value":"//input[@placeholder='Username']"}
+RESULT: {"using":"xpath","value":"//input[@placeholder='Username']"}
+COMMAND: POST /session/0ac9c42aecb71ef1a623772b4db9322e/elements - {"using":"xpath","value":"//input[@placeholder='Username']"}
+RESULT: {"using":"xpath","value":"//input[@placeholder='Username']"}
+COMMAND: POST /session/0ac9c42aecb71ef1a623772b4db9322e/elements - {"using":"xpath","value":"//input[@placeholder='Username']"}
+RESULT: {"using":"xpath","value":"//input[@placeholder='Username']"}
+COMMAND: POST /session/0ac9c42aecb71ef1a623772b4db9322e/elements - {"using":"xpath","value":"//input[@placeholder='Username']"}
+RESULT: {"using":"xpath","value":"//input[@placeholder='Username']"}
+COMMAND: POST /session/0ac9c42aecb71ef1a623772b4db9322e/elements - {"using":"xpath","value":"//input[@placeholder='Username']"}
+RESULT: {"using":"xpath","value":"//input[@placeholder='Username']"}
+COMMAND: POST /session/0ac9c42aecb71ef1a623772b4db9322e/element - {"using":"xpath","value":"//input[@placeholder='Username']"}
+RESULT: {"using":"xpath","value":"//input[@placeholder='Username']"}
+COMMAND: POST /session/0ac9c42aecb71ef1a623772b4db9322e/element/5E332E2B300A7C36534B3F2397106534_element_2/clear - {}
+RESULT: {}
+COMMAND: POST /session/0ac9c42aecb71ef1a623772b4db9322e/element/5E332E2B300A7C36534B3F2397106534_element_2/value - {"text":"admin"}
+RESULT: {"text":"admin"}
+COMMAND: POST /session/0ac9c42aecb71ef1a623772b4db9322e/element - {"using":"xpath","value":"//input[@placeholder='Password']"}
+RESULT: {"using":"xpath","value":"//input[@placeholder='Password']"}
+COMMAND: POST /session/0ac9c42aecb71ef1a623772b4db9322e/element/5E332E2B300A7C36534B3F2397106534_element_5/clear - {}
+RESULT: {}
+COMMAND: POST /session/0ac9c42aecb71ef1a623772b4db9322e/element/5E332E2B300A7C36534B3F2397106534_element_5/value - {"text":"admin123"}
+RESULT: {"text":"admin123"}
+COMMAND: POST /session/0ac9c42aecb71ef1a623772b4db9322e/element - {"using":"xpath","value":"//button[@type='submit']"}
+RESULT: {"using":"xpath","value":"//button[@type='submit']"}
+COMMAND: POST /session/0ac9c42aecb71ef1a623772b4db9322e/element/5E332E2B300A7C36534B3F2397106534_element_16/click - {}
+RESULT: {}
+COMMAND: POST /session/0ac9c42aecb71ef1a623772b4db9322e/element - {"using":"xpath","value":"//h6[normalize-space()='Dashboard']"}
+RESULT: {"using":"xpath","value":"//h6[normalize-space()='Dashboard']"}
+COMMAND: POST /session/0ac9c42aecb71ef1a623772b4db9322e/element - {"using":"xpath","value":"//h6[normalize-space()='Dashboard']"}
+RESULT: {"using":"xpath","value":"//h6[normalize-space()='Dashboard']"}
+COMMAND: DELETE /session/0ac9c42aecb71ef1a623772b4db9322e - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
