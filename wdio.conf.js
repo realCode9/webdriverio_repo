@@ -125,7 +125,20 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec',['allure', {outputDir: 'report/allure-results'}]],
+    reporters: ['spec',
+        // [
+        //     'allure',
+        //     {
+        //         outputDir: 'report/allure-results'
+        //     }
+        // ]
+        ['junit', {
+            outputDir: './junit-reports',
+            outputFileFormat: function(options) { // optional
+                return `results-${options.cid}.xml`
+            }
+        }]
+    ],
     beforeSuite: function (suite) {
             global.allure = allure;
             allure.addFeature(suite.name);
